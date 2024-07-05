@@ -8,7 +8,7 @@
         .div1
         {
             background-image: url(asset/img2.jpg) ;
-            height: 1000px;
+            height: 1600px;
             width: 700px;
             display:block;
         }
@@ -32,6 +32,30 @@
             height: 30px;
             display: block;
         }
+        table
+        {
+            
+            font-size: 40px;
+            padding: 50px;
+            margin: 5px;
+        text-align: center;
+        color: aqua;
+       border-collapse: collapse;
+        
+        }
+        tr,td,th
+        {
+            border: 2px solid white;
+           
+            
+            
+        }
+        #rst:hover
+        {
+           color: red;
+           background-color: yellow;
+            
+        }
 
     </style>
 </head>
@@ -43,6 +67,7 @@
     Registration Form
    
 </h1>
+<img src="asset/biman.jpg" alt="" height="200px" width="700px">
 
 <label for="fsnid">
     <input type="text" placeholder="First name  "  id="fsnid" >
@@ -57,12 +82,70 @@
  <label for="">
     <input type="password" name="" id="" placeholder="Password ">
  </label>
+
+<label for="">
+    <fieldset>
+        <legend>Massege:</legend>
+        <textarea name="" id="" cols="75" rows="5"></textarea>
+        
+    </fieldset>
+</label>
+
+<label for="">
+    Date of birth: <br>
+    <input type="date">
+</label>
+<label for="">
+    <input type="submit" value="pay now">
+</label>
+
+
+
+
  <label for="" style="display: inline-flex;">
     <input type="checkbox">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum quam doloremque, recusandae pariatur, rem quasi at explicabo ducimus sequi
  </label>
  </label>
  <label for="" style="display: inline-flex;">
     <input type="checkbox" >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum quam doloremque, recusandae pariatur, rem quasi at explicabo ducimus sequi, fugit facere!
+ </label>
+
+
+ <table >
+<thead>
+<tr>
+    <th>serial </th>
+    <th>Name </th>
+    <th>Age</th>
+    
+</tr>
+
+</thead>
+<tbody>
+<tr><td>1.</td>
+    <td>Alamin</td>
+    <td>22</td>
+
+</tr>
+<tr>
+    <td>2.</td>
+    <td>Rahim</td>
+    <td>23</td>
+</tr>
+</tbody>
+
+ </table>
+<h2 style="color:yellow;">Select the option</h2>
+ <select name="style" id="">
+    <option value="submit">Bangladesh</option>
+    <option value="India">India </option>
+    <option value="Pakisthan">Pakisthan</option>
+    <option value="Pakisthan">Afginasthan</option>
+    <option value="nepal" selected>Napel</option>
+ </select>
+ <label for=""><input  type="reset" name="" id="rst" value="reset"></label>
+ <label for="">
+    <input type="submit" value="SUBMIT">
  </label>
 
         </form>
